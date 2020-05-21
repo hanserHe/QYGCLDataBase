@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - SDAutoLayout (2.2.1)
+  - WHToast (0.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FMDB
+  - SDAutoLayout
+  - WHToast
+  - YYModel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - SDAutoLayout
+    - WHToast
+    - YYModel
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  WHToast: 30d7f1734ff57b391da4050fab13a2af0e95638c
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 1ca553ac7629b5e549de6bc7c0def2896a1b8ebe
+
+COCOAPODS: 1.5.3

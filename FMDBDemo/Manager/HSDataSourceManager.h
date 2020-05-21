@@ -10,7 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HSDataSourceManager : NSObject
+static NSString *kCellId = @"cellId";
+
+
+@class HSSqliteModel;
+@interface HSDataSourceManager : NSObject <UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) NSMutableArray <HSSqliteModel *>*dataArr;
+
+- (void)updateSourceData:(NSArray *)data;
 
 @end
 

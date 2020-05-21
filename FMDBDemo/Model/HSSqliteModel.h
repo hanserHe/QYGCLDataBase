@@ -12,6 +12,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HSSqliteModel : NSObject
 
+@property (nonatomic, copy) NSString *ID;
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *phone;
+@property (nonatomic, copy) NSString *score;
+
+
+- (instancetype)initWithDic:(NSDictionary *)dic;
+
 @end
 
 NS_ASSUME_NONNULL_END
